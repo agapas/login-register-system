@@ -1,0 +1,213 @@
+/*
+ * Author: Anieszka Pas
+ * Assignment: TE2.0 Fundamentals of Software Development, Digital Skills Academy
+ * Date: 2015/06/13
+ *
+*/
+
+
+body {
+    min-width: 600px;
+    min-height: 400px;
+    background-color: #544F4D;
+    background-image: url("../images/grad_canvas.jpg");
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading */
+h2 {
+    margin: auto;
+    padding: 12px 0 2px 0;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+}
+h3 {
+    min-width: 250px;
+    padding: 0 25%;
+    margin: 8px auto;
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #C9CFD6;
+}
+
+.infoh3 {
+    min-width: 250px;
+    padding: 0;
+    margin: 8px auto;
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #C9CFD6;
+    text-align: center;
+}
+
+.infop {
+    font-family: helvetica,arial;
+    font-size: 14px;
+    color: #C9CFD6;
+    padding: 0 4% 1%;
+    text-align: center;
+}
+
+li {
+    font-family: helvetica,arial;
+    font-size: 14px;
+    color: #C9CFD6;
+}
+
+#subtitle {
+    margin: auto;
+    padding: 5px 0 12px 0;
+    font-size: 1.4em;
+    font-weight: normal;
+    color: #C9CFD6;
+    text-align: center;
+}
+
+header {
+    color: white;
+    border-bottom: 1px dashed #ddd;
+    margin: 1%;
+}
+
+footer {
+    color: white;
+    font-size: 14px;
+    border-top: 1px dashed #ddd;
+    padding: 5px 12px 10px;
+    margin: 1%;
+}
+
+/* navigation bar*/
+nav a {
+    color: grey;
+    text-decoration: none;
+    padding: 0 15px;
+}
+nav a:hover {
+    color: #C9CFD6;
+}
+nav {
+    display: inline;
+}
+#left {
+    clear: both;
+    display: inline;
+    margin-top: 0;
+}
+#right {
+    clear: both;
+    float: right;
+    display: inline;
+    margin-top: 0;
+}
+
+/* images */
+#welcomeImg {
+    margin: 0px auto;
+    display: block;
+}
+#emailImg {
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+}
+#fireX {
+    margin: 0px auto;
+    display: block;
+}
+
+#wrapper {
+    width: 60%;
+    min-width: 350px;
+    margin: 3% auto 0% auto;
+    background-color: black;
+    border-radius: 5px;
+    font-family: helvetica,arial;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.6);
+}
+#content {
+    min-height: 350px;
+    min-width: 200px;
+    margin: 3% 12% 5% 12%;
+    padding-top: 2%;
+    color: #C9CFD6;
+    font-weight: normal;
+    border: 1px solid orange;
+}
+#forgotten {
+    margin: 0 auto 2%;
+}
+
+p {
+    font-family: helvetica,arial;
+    font-size: 14px;
+    color: #C9CFD6;
+    padding: 0 7% 1%;
+}
+
+form {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    border: none;
+}
+form label {
+    clear: left;
+    float: left;
+    min-width: 43%;
+    margin-right: 0px;
+    padding-top: 3px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+}
+form input[type=text],form input[type=password],form input[type=email] {
+    display: inline-block;
+    float: left;
+    width: 220px;
+    border: 1px solid #727272;
+    font-family: helvetica,arial;
+    margin: 0px 10px;
+    color: #000;
+    background: #fff;
+}
+form select, form select input {
+    display: inline-block;
+    float: left;
+    width: 200px;
+    border: 1px solid #727272;
+    font-family: helvetica,arial;
+    margin: 0px 10px;
+    color: #000;
+    background: #fff;
+}
+form input[type=text]:hover,form input[type=password]:hover,form input[type=email]:hover {
+    border: 1px solid black;
+}
+
+/* buttons */
+form input[type=submit] {
+    margin: 0 auto;
+    padding: 3px 10px;
+    font-family: helvetica,arial;
+    border: 1px solid #727272;
+    background-color: #C9CFD6;
+}
+form input[type=submit]:hover {
+    background-color: grey;
+    border: 1px solid black;
+}
+
+form br {
+    clear: both;
+}
+
+form a{
+    color: #000;
+    text-decoration: none;
+}
