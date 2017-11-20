@@ -2,7 +2,8 @@
 
     /*
     * Author: Anieszka Pas
-    * Assignment: TE2.0 Fundamentals of Software Development, Digital Skills Academy
+    * Assignment: TE FSD, Digital Skills Academy
+    * Student ID: D14128601
     * Date: 2015/06/01
     *
     * Resources:
@@ -36,7 +37,7 @@
     */
 
 
-    include "/../../includes/config.php";   // file with database login details
+    include __DIR__ . "/../../includes/config.php";   // file with database login details, __DIR__ available since php 5.3.0
 
     error_reporting(0);        // turn off reporting of mySQL errors
     //error_reporting(E_ALL);  // report all errors
