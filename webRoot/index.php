@@ -41,14 +41,14 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>TE20_C_FSD Assesment: OOP PHP App | Home - Login & Register System</title>
+        <title>TE20_C_FSD Assessment: OOP PHP App | Home - Login & Register System</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div id="wrapper">
 
             <header>
-                <h2>TE20_C_FSD Assesment - OOP PHP App:</h2>
+                <h2>TE20_C_FSD Assessment - OOP PHP App:</h2>
                 <h2 id="subtitle">The Login / Register System</h2>
             </header>
 

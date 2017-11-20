@@ -11,7 +11,7 @@
 -->
 
 
-<?php 
+<?php
     // start the session
     session_start();
 
@@ -40,9 +40,9 @@
     }
 
 
-    /* Resource: 
-    PHP Tutorials, Error Handling, phpacademy, 
-    https://www.youtube.com/watch?v=-XvbXxqJ4xQ&list=PLE134D877783367C7&index=9 
+    /* Resource:
+    PHP Tutorials, Error Handling, phpacademy,
+    https://www.youtube.com/watch?v=-XvbXxqJ4xQ&list=PLE134D877783367C7&index=9
     */
     $errors = array();
 
@@ -77,7 +77,7 @@
                 $errors[] = "Invalid password.";
             }
             else {  // password matches the hashed password, so login the user
- 
+
                 // set the user session (store userId)
                 $_SESSION["userId"] = $db->getUserId($username);
 
@@ -97,13 +97,13 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>TE20_C_FSD Assesment: OOP PHP App | Login - Login & Register System</title>
+        <title>TE20_C_FSD Assessment: OOP PHP App | Login - Login & Register System</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div id="wrapper">
             <header>
-                <h2>TE20_C_FSD Assesment - OOP PHP App:</h2>
+                <h2>TE20_C_FSD Assessment - OOP PHP App:</h2>
                 <h2 id="subtitle">The Login / Register System</h2>
             </header>
 
@@ -128,10 +128,10 @@
 
                 <br>
 
-                <h3>Login</h3>  
+                <h3>Login</h3>
 
                 <form method="post" action="login.php" id="loginform">  <!-- NOTE: always set value of action attribute - it prevents iframe clickjacking attacks -->
-                    <!-- Resource: 
+                    <!-- Resource:
                     http://html5doctor.com/html5-forms-introduction-and-new-attributes
                     -->
                     <label for="username">Username:</label>
@@ -144,7 +144,7 @@
                 </form>
 
                 <br>
-            </div>      
+            </div>
 
             <footer>
                 Copyright &copy; 2015 by Agnieszka Pas

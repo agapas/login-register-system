@@ -10,7 +10,7 @@
     *
 -->
 
-<?php 
+<?php
     // start the session
     session_start();
 
@@ -29,7 +29,7 @@
         $sessionUserId = $_SESSION['userId'];
 
         // create instance of DB class & set connection
-        $db = new DB();     
+        $db = new DB();
 
         // get user data
         $userData = $db->getUserData($sessionUserId, 'id', 'username', 'password', 'email');
@@ -44,14 +44,14 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>TE20_C_FSD Assesment: OOP PHP App | Welcome - Login & Register System</title>
+        <title>TE20_C_FSD Assessment: OOP PHP App | Welcome - Login & Register System</title>
         <link rel="stylesheet" href="css/style.css">
 
     </head>
     <body>
         <div id="wrapper">
             <header>
-                <h2>TE20_C_FSD Assesment - OOP PHP App:</h2>
+                <h2>TE20_C_FSD Assessment - OOP PHP App:</h2>
                 <h2 id="subtitle">The Login / Register System</h2>
             </header>
 

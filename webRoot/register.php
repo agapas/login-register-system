@@ -10,7 +10,7 @@
     *
 -->
 
-<?php 
+<?php
     session_start();
 
     require_once "classes/Db.class.php";
@@ -44,7 +44,7 @@
         }
 
         // create instance of DB class
-        $db = new DB(); 
+        $db = new DB();
 
         // check if username is unique
         if($db->getUserExists($username) === true) {
@@ -52,7 +52,7 @@
         }
 
         // check if password & confirmed password match
-        if($password !== $confirmPassword) {    
+        if($password !== $confirmPassword) {
             $errors[] = "Password and confirmed password you entered don't match";
         }
 
@@ -60,7 +60,7 @@
 
             // hash password
             $hash = $general->hashPassword($password);
-           
+
             // register user to database
             $register = $db->registerNewUser($username, $hash, $email);     // it's 1 if registered, 0 if not registered or -1 if db error
 
@@ -88,13 +88,13 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>TE20_C_FSD Assesment: OOP PHP App | Register - Login & Register System</title>
+        <title>TE20_C_FSD Assessment: OOP PHP App | Register - Login & Register System</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div id="wrapper">
             <header>
-                <h2>TE20_C_FSD Assesment - OOP PHP App:</h2>
+                <h2>TE20_C_FSD Assessment - OOP PHP App:</h2>
                 <h2 id="subtitle">The Login / Register System</h2>
             </header>
 
@@ -139,7 +139,7 @@
                 </form>
 
                 <br>
-            </div>  
+            </div>
 
             <footer>
                 Copyright &copy; 2015 by Agnieszka Pas
